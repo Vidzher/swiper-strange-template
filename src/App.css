@@ -1,0 +1,35 @@
+#root {
+    width: 100%;
+    height: 1000px;
+}
+
+.section {
+    height: 800px;
+    margin-left: 120px;
+}
+
+.mySwiper {
+    margin-right: unset;
+    width: 1800px;
+    height: 100%;
+}
+
+.swiper-wrapper {
+    height: 700px;
+}
+
+.swiper-slide {
+    width: 400px!important;
+    border-radius: 10px;
+    background: darkgreen;
+}
+
+.swiper-scrollbar {
+    width: 1200px!important;
+    bottom: 0!important;
+    background: darkred;
+}
+
+.swiper-scrollbar-drag {
+    background: yellow;
+}
