@@ -14,7 +14,8 @@ function App() {
         scrollbar={{draggable: true, hide: false}}
         modules={[Scrollbar, FreeMode]}
         freeMode={{enabled: true, sticky: false}}
-        slidesPerView={4}
+        slidesPerView={'auto'}
+        slidesOffsetAfter={120}
         spaceBetween={30}
         className="mySwiper"
       >
